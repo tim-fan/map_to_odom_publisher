@@ -19,7 +19,7 @@ Publishes the `map`→`odom` transform to `tf`, based on current pose topic.
     * listens for the `odom` → `base_link` transform
 ### 2.1.2 Published Topics
 * `tf`
-    * publishes the `map`→`base_link` transform
+    * publishes the `map`→`odom` transform
 
 ### 2.1.3 Parameters
 * `~odom_frame_id` (`string`, default: "odom")
